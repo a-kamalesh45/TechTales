@@ -139,6 +139,7 @@ nav img {
     color: rgb(0, 0, 0);
     font-size: 1.5rem;
     background-color: transparent;
+    padding: 0.2rem 0.5rem;
     box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.4),
     inset -5px -5px 10px rgba(255, 255, 255, 0.7);
     outline: none;
@@ -148,6 +149,7 @@ nav img {
     font-size: 1.5rem;
     border-radius: 5px;
     color: white;
+    padding: 0.2rem 0.5rem;
     background-color: rgb(32 39 104);
     border:none;
     font-weight: 500;
