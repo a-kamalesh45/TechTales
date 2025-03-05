@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Jaws",
+        "author": "Peter Benchley",
+        "price": "Rs. 1,150",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,299",
+        "description": "The legendary cover features a swimmer unaware of the approaching killer shark, setting the tone for the thrilling and terrifying story ahead.",
+        "image": "../books/29.jpg",
+        "category": "thriller"
+    },
+    {
+        "title": "The Ghost Ship",
+        "author": "Kate Mosse",
+        "price": "Rs. 1,170",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,299",
+        "description": "The eerie cover with dark blue tones and sea waves captures the themes of mystery, piracy, and revenge, as explored in this gripping tale.",
+        "image": "../books/30.jpg",
+        "category": "thriller"
+    },
+    {
+        "title": "Get in Trouble",
+        "author": "Kelly Link",
+        "price": "Rs. 950",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,049",
+        "description": "A collection of short stories blending fantasy and reality, exploring strange worlds with an eerie yet captivating tone.",
+        "image": "../books/31.jpg",
+        "category": "thriller"
+    },
+    {
+        "title": "Goldfinch",
+        "author": "Donna Tartt",
+        "price": "Rs. 1,200",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,349",
+        "description": "A Pulitzer Prize-winning novel about loss, survival, and the power of art, following the life of Theo Decker after a tragic event.",
+        "image": "../books/32.jpg",
+        "category": "thriller"
+    }
+]

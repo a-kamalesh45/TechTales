@@ -1,0 +1,52 @@
+[
+    {
+        "title": "American Psycho",
+        "author": "Bret Easton Ellis",
+        "price": "Rs. 1,399",
+        "discount": "20%",
+        "originalPrice": "Rs. 1,749",
+        "description": "A chilling satire of 1980s excess and materialism, American Psycho chronicles the life of Patrick Bateman, a successful New York businessman who leads a double life as a violent and psychopathic killer.",
+        "image": "../books/4.jpg",
+        "category": "action"
+    },
+    {
+        "title": "Night Shift",
+        "author": "Stephen King",
+        "price": "Rs. 1,130",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,249",
+        "description": "A collection of short stories, Night Shift explores various themes of horror and suspense, from supernatural terror to the chilling aspects of human nature.",
+        "image": "../books/16.jpg",
+        "category": "action"
+    },
+    {
+        "title": "Jurassic Park",
+        "author": "Michael Crichton",
+        "price": "Rs. 1,399",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,599",
+        "description": "The iconic cover for Jurassic Park features a menacing image of a T-Rex, foreshadowing the chaos unleashed by the cloned dinosaurs. The cover's vibrant green and yellow colors reflect the tropical setting of the park while highlighting the novel’s themes of science gone awry.",
+        "image": "../books/28.jpg",
+        "category": "action"
+    },
+    {
+        "title": "Jaws",
+        "author": "Peter Benchley",
+        "price": "Rs. 1,150",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,299",
+        "description": "The legendary cover features a swimmer unaware of the approaching killer shark, setting the tone for the thrilling and terrifying story ahead.",
+        "image": "../books/29.jpg",
+        "category": "action"
+    },
+    {
+        "title": "The Godfather",
+        "author": "Mario Puzo",
+        "price": "Rs. 1,230",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,399",
+        "description": "The iconic cover featuring a puppeteer pulling the strings represents the power dynamics and manipulation central to the story of the mafia family.",
+        "image": "../books/22.jpg",
+        "category": "action"
+    }
+]

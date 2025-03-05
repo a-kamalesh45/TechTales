@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Cat's Eye",
+        "author": "William W. Johnstone",
+        "price": "Rs. 1,100",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,249",
+        "description": "A deeply personal narrative exploring friendship, memory, and betrayal, as seen through the eyes of a female artist looking back on her life.",
+        "image": "../books/34.jpg",
+        "category": "fiction"
+    },
+    {
+        "title": "The Master and Margarita",
+        "author": "Mikhail Bulgakov",
+        "price": "Rs. 1,550",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,699",
+        "description": "The cover features the devil and a black cat, representing the novel's themes of good vs. evil and its surreal, darkly humorous narrative.",
+        "image": "../books/25.jpg",
+        "category": "fiction"
+    },
+    {
+        "title": "The Wealth of Nations",
+        "author": "Adam Smith",
+        "price": "Rs. 1,399",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,599",
+        "description": "This classic book's cover uses illustrations of workers and gears to symbolize the Industrial Revolution and its economic implications.",
+        "image": "../books/24.jpg",
+        "category": "fiction"
+    },
+    {
+        "title": "The Divine Comedy",
+        "author": "Dante Alighieri",
+        "price": "Rs. 1,558",
+        "discount": "20%",
+        "originalPrice": "Rs. 1,959",
+        "description": "A landmark work of world literature, The Divine Comedy follows Dante's journey through the realms of Hell, Purgatory, and Paradise, exploring themes of sin, redemption, and divine justice.",
+        "image": "../books/11.jpg",
+        "category": "fiction"
+    }
+]

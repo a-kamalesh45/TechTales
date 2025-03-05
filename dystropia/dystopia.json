@@ -1,0 +1,52 @@
+[
+    {
+        "title": "A Clockwork Orange",
+        "author": "Anthony Burgess",
+        "price": "Rs. 1,189",
+        "discount": "15%",
+        "originalPrice": "Rs. 1,399",
+        "description": "A dystopian novel that follows Alex, a teenage delinquent, as he explores a future society filled with violence, corruption, and state control. The book delves into the themes of free will, morality, and the conflict between order and chaos.",
+        "image": "../books/2.jpg",
+        "category": "dystopia"
+    },
+    {
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "price": "Rs. 968",
+        "discount": "12%",
+        "originalPrice": "Rs. 1,099",
+        "description": "In a dystopian future where happiness is manufactured through technology and genetic engineering, Brave New World explores themes of conformity, individual freedom, and the cost of progress.",
+        "image": "../books/5.jpg",
+        "category": "dystopia"
+    },
+    {
+        "title": "Fahrenheit 451",
+        "author": "Ray Bradbury",
+        "price": "Rs. 815",
+        "discount": "15%",
+        "originalPrice": "Rs. 959",
+        "description": "In a society where books are banned and 'firemen' burn any that are found, Guy Montag, a fireman, begins questioning his role in the oppressive system and seeks to find knowledge in a world devoid of intellectual freedom.",
+        "image": "../books/7.jpg",
+        "category": "dystopia"
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "price": "Rs. 810",
+        "discount": "10%",
+        "originalPrice": "Rs. 899",
+        "description": "A classic dystopian novel set in a totalitarian society under constant surveillance, questioning freedom, truth, and individualism.",
+        "image": "../books/35.jpg",
+        "category": "dystopia"
+    },
+    {
+        "title": "Invisible Man",
+        "author": "Ralph Ellison",
+        "price": "Rs. 1,121",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,249",
+        "description": "An exploration of race, identity, and invisibility in America, Invisible Man follows a Black man who becomes physically and socially invisible due to systemic racism, and his struggle to find personal and societal meaning.",
+        "image": "../books/18.jpg",
+        "category": "dystopia"
+    }
+]

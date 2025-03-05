@@ -1,0 +1,442 @@
+[
+    {
+        "title": "American Psycho",
+        "author": "Bret Easton Ellis",
+        "price": "Rs. 1,399",
+        "discount": "20%",
+        "originalPrice": "Rs. 1,749",
+        "description": "A chilling satire of 1980s excess and materialism, American Psycho chronicles the life of Patrick Bateman, a successful New York businessman who leads a double life as a violent and psychopathic killer.",
+        "image": "../books/4.jpg",
+        "category": "action"
+    },
+    {
+        "title": "Night Shift",
+        "author": "Stephen King",
+        "price": "Rs. 1,130",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,249",
+        "description": "A collection of short stories, Night Shift explores various themes of horror and suspense, from supernatural terror to the chilling aspects of human nature.",
+        "image": "../books/16.jpg",
+        "category": "action"
+    },
+    {
+        "title": "Jurassic Park",
+        "author": "Michael Crichton",
+        "price": "Rs. 1,399",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,599",
+        "description": "The iconic cover for Jurassic Park features a menacing image of a T-Rex, foreshadowing the chaos unleashed by the cloned dinosaurs. The cover's vibrant green and yellow colors reflect the tropical setting of the park while highlighting the novel’s themes of science gone awry.",
+        "image": "../books/28.jpg",
+        "category": "action"
+    },
+    {
+        "title": "Jaws",
+        "author": "Peter Benchley",
+        "price": "Rs. 1,150",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,299",
+        "description": "The legendary cover features a swimmer unaware of the approaching killer shark, setting the tone for the thrilling and terrifying story ahead.",
+        "image": "../books/29.jpg",
+        "category": "action"
+    },
+    {
+        "title": "The Godfather",
+        "author": "Mario Puzo",
+        "price": "Rs. 1,230",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,399",
+        "description": "The iconic cover featuring a puppeteer pulling the strings represents the power dynamics and manipulation central to the story of the mafia family.",
+        "image": "../books/22.jpg",
+        "category": "action"
+    },
+    {
+        "title": "Animorphs – The Stranger",
+        "author": "K. A. Applegate",
+        "price": "Rs. 704",
+        "discount": "12%",
+        "originalPrice": "Rs. 799",
+        "description": "In this installment of the Animorphs series, the young heroes confront a new threat, the mysterious alien, and the moral dilemma of the power to morph into animals. Their struggles are both physical and psychological as they battle to protect Earth from an alien invasion.",
+        "image": "../books/6.jpg",
+        "category": "adventure"
+    },
+    {
+        "title": "A Princess of Mars",
+        "author": "Edgar Rice Burroughs",
+        "price": "Rs. 1,148",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,299",
+        "description": "Set on Mars, A Princess of Mars follows the adventures of John Carter, a Confederate veteran who is transported to the Red Planet, where he becomes entangled in the political and military conflicts between its inhabitants.",
+        "image": "../books/20.jpg",
+        "category": "adventure"
+    },
+    {
+        "title": "The Ghost Ship",
+        "author": "Kate Mosse",
+        "price": "Rs. 1,170",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,299",
+        "description": "The eerie cover with dark blue tones and sea waves captures the themes of mystery, piracy, and revenge, as explored in this gripping tale.",
+        "image": "../books/30.jpg",
+        "category": "adventure"
+    },
+    {
+        "title": "River Sing Me Home",
+        "author": "Eleanor Shearer",
+        "price": "Rs. 1,210",
+        "discount": "15%",
+        "originalPrice": "Rs. 1,399",
+        "description": "Set in the Caribbean, this novel follows a mother's desperate search for her children, exploring themes of love, loss, and the enduring bond between mother and child in the aftermath of slavery.",
+        "image": "../books/17.jpg",
+        "category": "adventure"
+    },
+    {
+        "title": "The Grapes of Wrath",
+        "author": "John Steinbeck",
+        "price": "Rs. 1,140",
+        "discount": "5%",
+        "originalPrice": "Rs. 1,199",
+        "description": "This Pulitzer Prize-winning novel follows the Joad family as they travel westward during the Great Depression, struggling against poverty, social injustice, and the harsh realities of life as migrant workers.",
+        "image": "../books/3.jpg",
+        "category": "adventure"
+    },
+    {
+        "title": "When You Are Engulfed in Flames",
+        "author": "David Sedaris",
+        "price": "Rs. 1,066",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,199",
+        "description": "A collection of autobiographical essays, When You Are Engulfed in Flames explores Sedaris' experiences with the absurdities of life, family, and self-reflection, all told with his unique humor and wit.",
+        "image": "../books/8.jpg",
+        "category": "comic"
+    },
+    {
+        "title": "Despair",
+        "author": "Vladimir Nabokov",
+        "price": "Rs. 1,250",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,399",
+        "description": "A darkly comic novel about a man who plans his own murder, only to have the plan take unexpected turns as he struggles with his own reality.",
+        "image": "../books/36.jpg",
+        "category": "comic"
+    },
+    {
+        "title": "The Psychopath Test",
+        "author": "Jon Ronson",
+        "price": "Rs. 1,169",
+        "discount": "15%",
+        "originalPrice": "Rs. 1,349",
+        "description": "In this non-fiction work, Ronson explores the concept of psychopathy, the rise of mental health diagnoses, and the institutions that treat the mentally ill, all while diving into the mystery of what it means to be truly 'normal.'",
+        "image": "../books/15.jpg",
+        "category": "comic"
+    },
+    {
+        "title": "A Clockwork Orange",
+        "author": "Anthony Burgess",
+        "price": "Rs. 1,189",
+        "discount": "15%",
+        "originalPrice": "Rs. 1,399",
+        "description": "A dystopian novel that follows Alex, a teenage delinquent, as he explores a future society filled with violence, corruption, and state control. The book delves into the themes of free will, morality, and the conflict between order and chaos.",
+        "image": "../books/2.jpg",
+        "category": "dystopia"
+    },
+    {
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "price": "Rs. 968",
+        "discount": "12%",
+        "originalPrice": "Rs. 1,099",
+        "description": "In a dystopian future where happiness is manufactured through technology and genetic engineering, Brave New World explores themes of conformity, individual freedom, and the cost of progress.",
+        "image": "../books/5.jpg",
+        "category": "dystopia"
+    },
+    {
+        "title": "Fahrenheit 451",
+        "author": "Ray Bradbury",
+        "price": "Rs. 815",
+        "discount": "15%",
+        "originalPrice": "Rs. 959",
+        "description": "In a society where books are banned and 'firemen' burn any that are found, Guy Montag, a fireman, begins questioning his role in the oppressive system and seeks to find knowledge in a world devoid of intellectual freedom.",
+        "image": "../books/7.jpg",
+        "category": "dystopia"
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "price": "Rs. 810",
+        "discount": "10%",
+        "originalPrice": "Rs. 899",
+        "description": "A classic dystopian novel set in a totalitarian society under constant surveillance, questioning freedom, truth, and individualism.",
+        "image": "../books/35.jpg",
+        "category": "dystopia"
+    },
+    {
+        "title": "Invisible Man",
+        "author": "Ralph Ellison",
+        "price": "Rs. 1,121",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,249",
+        "description": "An exploration of race, identity, and invisibility in America, Invisible Man follows a Black man who becomes physically and socially invisible due to systemic racism, and his struggle to find personal and societal meaning.",
+        "image": "../books/18.jpg",
+        "category": "dystopia"
+    },
+    {
+        "title": "The Priory of the Orange Tree",
+        "author": "Samantha Shannon",
+        "price": "Rs. 1,699",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,899",
+        "description": "This beautifully designed cover features a dragon and an orange tree, symbolizing magic, fantasy, and the epic narrative of dragons and female warriors.",
+        "image": "../books/23.jpg",
+        "category": "fantasy"
+    },
+    {
+        "title": "Harry Potter and the Sorcerer’s Stone",
+        "author": "J.K. Rowling",
+        "price": "Rs. 1,245",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,399",
+        "description": "The cover, depicting Harry Potter playing Quidditch, introduces the magical world of Hogwarts and the adventurous story ahead.",
+        "image": "../books/27.jpg",
+        "category": "fantasy"
+    },
+    {
+        "title": "Get in Trouble",
+        "author": "Kelly Link",
+        "price": "Rs. 950",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,049",
+        "description": "A collection of short stories blending fantasy and reality, exploring strange worlds with an eerie yet captivating tone.",
+        "image": "../books/31.jpg",
+        "category": "fantasy"
+    },
+    {
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "price": "Rs. 944",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,049",
+        "description": "In Frankenstein, Victor Frankenstein creates a creature from dead body parts, only to be horrified by the result. The novel examines themes of scientific overreach, the consequences of creation, and the moral responsibilities that come with it.",
+        "image": "../books/13.jpg",
+        "category": "fantasy"
+    },
+    {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "price": "Rs. 1,066",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,185",
+        "description": "Set in early 19th-century England, this novel follows Elizabeth Bennet as she navigates societal expectations, family dynamics, and her evolving relationship with the proud yet mysterious Mr. Darcy.",
+        "image": "../books/1.jpg",
+        "category": "fantasy"
+    },
+    {
+        "title": "Cat's Eye",
+        "author": "William W. Johnstone",
+        "price": "Rs. 1,100",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,249",
+        "description": "A deeply personal narrative exploring friendship, memory, and betrayal, as seen through the eyes of a female artist looking back on her life.",
+        "image": "../books/34.jpg",
+        "category": "fiction"
+    },
+    {
+        "title": "The Master and Margarita",
+        "author": "Mikhail Bulgakov",
+        "price": "Rs. 1,550",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,699",
+        "description": "The cover features the devil and a black cat, representing the novel's themes of good vs. evil and its surreal, darkly humorous narrative.",
+        "image": "../books/25.jpg",
+        "category": "fiction"
+    },
+    {
+        "title": "The Wealth of Nations",
+        "author": "Adam Smith",
+        "price": "Rs. 1,399",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,599",
+        "description": "This classic book's cover uses illustrations of workers and gears to symbolize the Industrial Revolution and its economic implications.",
+        "image": "../books/24.jpg",
+        "category": "fiction"
+    },
+    {
+        "title": "The Divine Comedy",
+        "author": "Dante Alighieri",
+        "price": "Rs. 1,558",
+        "discount": "20%",
+        "originalPrice": "Rs. 1,959",
+        "description": "A landmark work of world literature, The Divine Comedy follows Dante's journey through the realms of Hell, Purgatory, and Paradise, exploring themes of sin, redemption, and divine justice.",
+        "image": "../books/11.jpg",
+        "category": "fiction"
+    },
+    {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "price": "Rs. 1,066",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,185",
+        "description": "Set in early 19th-century England, this novel follows Elizabeth Bennet as she navigates societal expectations, family dynamics, and her evolving relationship with the proud yet mysterious Mr. Darcy.",
+        "image": "../books/1.jpg",
+        "category": "romance"
+    },
+    {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "price": "Rs. 1,147",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,247",
+        "description": "Set during the Roaring Twenties, The Great Gatsby explores themes of wealth, love, and the American Dream through the story of Jay Gatsby, his obsession with Daisy Buchanan, and his tragic end.",
+        "image": "../books/14.jpg",
+        "category": "romance"
+    },
+    {
+        "title": "The Unbearable Lightness of Being",
+        "author": "Milan Kundera",
+        "price": "Rs. 1,150",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,299",
+        "description": "This cover evokes a sense of weightlessness or lightness, reflecting the novel's philosophical exploration of love, identity, and freedom.",
+        "image": "../books/21.jpg",
+        "category": "romance"
+    },
+    {
+        "title": "The Performance",
+        "author": "Claire Thomas",
+        "price": "Rs. 1,050",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,149",
+        "description": "A gripping novel set in a remote theatre, where three women confront their lives, secrets, and desires during a powerful performance.",
+        "image": "../books/33.jpg",
+        "category": "romance"
+    },
+    {
+        "title": "A Teaspoon of Earth and Sea",
+        "author": "Dina Nayeri",
+        "price": "Rs. 1,152",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,299",
+        "description": "The novel tells the story of an Iranian girl growing up in exile, exploring themes of identity, family, and the disconnection between her heritage and the life she leads in the West.",
+        "image": "../books/19.jpg",
+        "category": "romance"
+    },
+    {
+        "title": "Jaws",
+        "author": "Peter Benchley",
+        "price": "Rs. 1,150",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,299",
+        "description": "The legendary cover features a swimmer unaware of the approaching killer shark, setting the tone for the thrilling and terrifying story ahead.",
+        "image": "../books/29.jpg",
+        "category": "thriller"
+    },
+    {
+        "title": "The Ghost Ship",
+        "author": "Kate Mosse",
+        "price": "Rs. 1,170",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,299",
+        "description": "The eerie cover with dark blue tones and sea waves captures the themes of mystery, piracy, and revenge, as explored in this gripping tale.",
+        "image": "../books/30.jpg",
+        "category": "thriller"
+    },
+    {
+        "title": "Get in Trouble",
+        "author": "Kelly Link",
+        "price": "Rs. 950",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,049",
+        "description": "A collection of short stories blending fantasy and reality, exploring strange worlds with an eerie yet captivating tone.",
+        "image": "../books/31.jpg",
+        "category": "thriller"
+    },
+    {
+        "title": "Goldfinch",
+        "author": "Donna Tartt",
+        "price": "Rs. 1,200",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,349",
+        "description": "A Pulitzer Prize-winning novel about loss, survival, and the power of art, following the life of Theo Decker after a tragic event.",
+        "image": "../books/32.jpg",
+        "category": "thriller"
+    },
+    {
+        "title": "The Dark Side of Mirror",
+        "author": "Christopher Murphy",
+        "price": "Rs. 1,100",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,249",
+        "description": "A thrilling exploration of hidden secrets and dark truths that lie on the other side of a reflection.",
+        "image": "books/a.jpg",
+        "category": "bestseller"
+    },
+    {
+        "title": "Junior Year Bites",
+        "author": "Annie Listenby",
+        "price": "Rs. 950",
+        "discount": "15%",
+        "originalPrice": "Rs. 1,099",
+        "description": "A humorous coming-of-age novel set during the turbulent college years, filled with awkward moments and self-discovery.",
+        "image": "books/b.jpg",
+        "category": "bestseller"
+    },
+    {
+        "title": "A Court at Constantinople",
+        "author": "Anthony Earth",
+        "price": "Rs. 1,250",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,399",
+        "description": "Set in the grandeur of the Byzantine Empire, this historical novel delves into the intrigues and power struggles of the court.",
+        "image": "books/c.jpg",
+        "category": "bestseller"
+    },
+    {
+        "title": "Daughters of a Winter Night",
+        "author": "Doug Belair",
+        "price": "Rs. 1,300",
+        "discount": "12%",
+        "originalPrice": "Rs. 1,499",
+        "description": "A tale of family bonds, secrets, and survival against the backdrop of a harsh winter, where the past and future collide.",
+        "image": "books/d.jpg",
+        "category": "bestseller"
+    },
+    {
+        "title": "Cult Crystal",
+        "author": "Remi Bradley",
+        "price": "Rs. 1,400",
+        "discount": "15%",
+        "originalPrice": "Rs. 1,649",
+        "description": "A mystical and suspenseful novel revolving around an ancient crystal that holds the power to change the course of history.",
+        "image": "books/e.jpg",
+        "category": "bestseller"
+    },
+    {
+        "title": "Novel of Fiction",
+        "author": "S. J. Lee",
+        "price": "Rs. 1,100",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,249",
+        "description": "A groundbreaking work that explores the boundaries of fiction, where storytelling becomes a philosophical journey.",
+        "image": "books/f.jpg",
+        "category": "bestseller"
+    },
+    {
+        "title": "As the Fallen Rise",
+        "author": "Sadie Hewitt",
+        "price": "Rs. 1,200",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,349",
+        "description": "A gripping tale of redemption and the power of rising from one's downfall, filled with action, drama, and emotional depth.",
+        "image": "books/g.jpg",
+        "category": "bestseller"
+    },
+    {
+        "title": "Takakush",
+        "author": "Raine Reiter",
+        "price": "Rs. 1,000",
+        "discount": "5%",
+        "originalPrice": "Rs. 1,050",
+        "description": "A fascinating adventure in a distant world, where ancient traditions and new conflicts clash, revealing the true power of unity.",
+        "image": "books/h.jpg",
+        "category": "bestseller"
+    }
+]

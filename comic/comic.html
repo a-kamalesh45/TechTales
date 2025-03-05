@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comic Books</title>
+    <link rel="icon" href="favicon.ico?v=1" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <!-- <header> -->
+        <nav class="navbar">
+            <div class="logo">
+                <img src="../Gallery/logo.png" alt="logo" width="100px" height="100px">
+            </div>
+            <ul class="navclass">
+                <li><a href="../index.html">Home</a></li>
+                <li class="cat"><a href="#categories">Comic ▼</a>
+                    <ul class="dropdn">
+                        <li><a href="../action/action.html">Action</a></li>
+                        <li><a href="../adventure/adv.html">Adventure</a></li>
+                        <li><a href="comic.html">Comic</a></li>
+                        <li><a href="../dystropia/dys.html">Dystropia</a></li>
+                        <li><a href="../fantasy/fantasy.html">Fantasy</a></li>
+                        <li><a href="../fiction/fiction.html">Fiction</a></li>
+                        <li><a href="../romance/romance.html">Romance</a></li>
+                        <li><a href="../thrill/thrill.html">Thriller</a></li>
+                    </ul>
+                </li>
+                <li><a href="../about.html">About Us</a></li>
+                <li><a href="../cont.html">Contact</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="Search Store">
+                <button>Search</button>
+            </div>
+            <div class="navicon">
+                <span class="cartBtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M240-80q-33 0-56.5-23.5T160-160v-480q0-33 23.5-56.5T240-720h80q0-66 47-113t113-47q66 0 113 47t47 113h80q33 0 56.5 23.5T800-640v480q0 33-23.5 56.5T720-80H240Zm0-80h480v-480h-80v80q0 17-11.5 28.5T600-520q-17 0-28.5-11.5T560-560v-80H400v80q0 17-11.5 28.5T360-520q-17 0-28.5-11.5T320-560v-80h-80v480Zm160-560h160q0-33-23.5-56.5T480-800q-33 0-56.5 23.5T400-720ZM240-160v-480 480Z"/></svg>
+                </span>
+                    
+                <span class="profileBtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z"/></svg>
+                </span>
+            </div>
+            <div class="menubar">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+            </div>
+            <div class="close">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+            </div>
+        </nav>
+
+    <section class="main">
+
+        <h1 class="mainhero"> Best Comic Books</h1>
+
+        <div id="cardContainer">
+
+        </div>
+    </section>
+
+    <section class="cart">
+        <div class="cartBox">
+            <h1 class="cartText">Your Cart</h1>
+            <div class="cartContainer">
+                <p>Your Cart is empty.</p> 
+                <p>Please add books to your cart.</p>
+                <button><a href="">Add Books</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="profile">
+        <div class="profBox">
+            <div class="prof">
+                <h1>Your Profile</h1>
+                <div class="profLogo">
+                    <svg width="200" height="200" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="15" cy="15" r="13" stroke="rgb(26, 37, 137)" stroke-width="2" fill="none"/>
+                        <circle cx="15" cy="10" r="4" stroke="rgb(26, 37, 137)" stroke-width="2" fill="#fdf240"/>
+                        <path d="M7 21C7 18 11 16 15 16C19 16 23 18 23 21C23 22 20 24 18 24H12C10 24 7 22 7 21Z" 
+                          stroke="rgb(26, 37, 137)" stroke-width="2" fill="rgb(97, 108, 213)"/>
+                      </svg>
+                                           
+                </div>
+                <h2>GuestUser@135</h2>
+            </div>
+            <hr>
+            <div class="profOpt">
+                <ul>
+                    <li>Settings</li>
+                    <li>Change Password</li>
+                    <li>Your Orders</li>
+                    <li>Change Address</li>
+                    <li>Link Phone</li>
+                </ul>
+                <div class="profbtn">
+                    <button>Log In</button>
+                    <button>Sign In</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <h2><a href="#terms-and-conditions">Terms and Conditions</a></h2>
+        <h2><a href="#privacy-policy">Privacy Policy</a></h2>
+        <span><a href="#faq">FAQ</a></span>
+        <span><a href="#help-centre">Help Centre</a></span>
+        <span><a href="#account">Account</a></span>
+        <span><a href="#media-centre">Media Centre</a></span>
+        <span><a href="#investor-relations">Investor Relations</a></span>
+        <span><a href="#jobs">Jobs</a></span>
+        <span><a href="#cookie-preferences">Cookie Preferences</a></span>
+        <span><a href="#corporate-information">Corporate Information</a></span>
+        <span><a href="#contact-us">Contact Us</a></span>
+        <span><a href="#legal-notices">Legal Notices</a></span>
+        <p>&copy; 2025 Tech & Tales. All rights reserved.</p>
+    </footer>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Animorphs – The Stranger",
+        "author": "K. A. Applegate",
+        "price": "Rs. 704",
+        "discount": "12%",
+        "originalPrice": "Rs. 799",
+        "description": "In this installment of the Animorphs series, the young heroes confront a new threat, the mysterious alien, and the moral dilemma of the power to morph into animals. Their struggles are both physical and psychological as they battle to protect Earth from an alien invasion.",
+        "image": "../books/6.jpg",
+        "category": "adventure"
+    },
+    {
+        "title": "A Princess of Mars",
+        "author": "Edgar Rice Burroughs",
+        "price": "Rs. 1,148",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,299",
+        "description": "Set on Mars, A Princess of Mars follows the adventures of John Carter, a Confederate veteran who is transported to the Red Planet, where he becomes entangled in the political and military conflicts between its inhabitants.",
+        "image": "../books/20.jpg",
+        "category": "adventure"
+    },
+    {
+        "title": "The Ghost Ship",
+        "author": "Kate Mosse",
+        "price": "Rs. 1,170",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,299",
+        "description": "The eerie cover with dark blue tones and sea waves captures the themes of mystery, piracy, and revenge, as explored in this gripping tale.",
+        "image": "../books/30.jpg",
+        "category": "adventure"
+    },
+    {
+        "title": "River Sing Me Home",
+        "author": "Eleanor Shearer",
+        "price": "Rs. 1,210",
+        "discount": "15%",
+        "originalPrice": "Rs. 1,399",
+        "description": "Set in the Caribbean, this novel follows a mother's desperate search for her children, exploring themes of love, loss, and the enduring bond between mother and child in the aftermath of slavery.",
+        "image": "../books/17.jpg",
+        "category": "adventure"
+    },
+    {
+        "title": "The Grapes of Wrath",
+        "author": "John Steinbeck",
+        "price": "Rs. 1,140",
+        "discount": "5%",
+        "originalPrice": "Rs. 1,199",
+        "description": "This Pulitzer Prize-winning novel follows the Joad family as they travel westward during the Great Depression, struggling against poverty, social injustice, and the harsh realities of life as migrant workers.",
+        "image": "../books/3.jpg",
+        "category": "adventure"
+    }
+]

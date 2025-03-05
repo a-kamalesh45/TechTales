@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "price": "Rs. 1,066",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,185",
+        "description": "Set in early 19th-century England, this novel follows Elizabeth Bennet as she navigates societal expectations, family dynamics, and her evolving relationship with the proud yet mysterious Mr. Darcy.",
+        "image": "../books/1.jpg",
+        "category": "romance"
+    },
+    {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "price": "Rs. 1,147",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,247",
+        "description": "Set during the Roaring Twenties, The Great Gatsby explores themes of wealth, love, and the American Dream through the story of Jay Gatsby, his obsession with Daisy Buchanan, and his tragic end.",
+        "image": "../books/14.jpg",
+        "category": "romance"
+    },
+    {
+        "title": "The Unbearable Lightness of Being",
+        "author": "Milan Kundera",
+        "price": "Rs. 1,150",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,299",
+        "description": "This cover evokes a sense of weightlessness or lightness, reflecting the novel's philosophical exploration of love, identity, and freedom.",
+        "image": "../books/21.jpg",
+        "category": "romance"
+    },
+    {
+        "title": "The Performance",
+        "author": "Claire Thomas",
+        "price": "Rs. 1,050",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,149",
+        "description": "A gripping novel set in a remote theatre, where three women confront their lives, secrets, and desires during a powerful performance.",
+        "image": "../books/33.jpg",
+        "category": "romance"
+    },
+    {
+        "title": "A Teaspoon of Earth and Sea",
+        "author": "Dina Nayeri",
+        "price": "Rs. 1,152",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,299",
+        "description": "The novel tells the story of an Iranian girl growing up in exile, exploring themes of identity, family, and the disconnection between her heritage and the life she leads in the West.",
+        "image": "../books/19.jpg",
+        "category": "romance"
+    }
+]

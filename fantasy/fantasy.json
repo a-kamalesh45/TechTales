@@ -1,0 +1,52 @@
+[
+    {
+        "title": "The Priory of the Orange Tree",
+        "author": "Samantha Shannon",
+        "price": "Rs. 1,699",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,899",
+        "description": "This beautifully designed cover features a dragon and an orange tree, symbolizing magic, fantasy, and the epic narrative of dragons and female warriors.",
+        "image": "../books/23.jpg",
+        "category": "fantasy"
+    },
+    {
+        "title": "Harry Potter and the Sorcerer’s Stone",
+        "author": "J.K. Rowling",
+        "price": "Rs. 1,245",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,399",
+        "description": "The cover, depicting Harry Potter playing Quidditch, introduces the magical world of Hogwarts and the adventurous story ahead.",
+        "image": "../books/27.jpg",
+        "category": "fantasy"
+    },
+    {
+        "title": "Get in Trouble",
+        "author": "Kelly Link",
+        "price": "Rs. 950",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,049",
+        "description": "A collection of short stories blending fantasy and reality, exploring strange worlds with an eerie yet captivating tone.",
+        "image": "../books/31.jpg",
+        "category": "fantasy"
+    },
+    {
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "price": "Rs. 944",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,049",
+        "description": "In Frankenstein, Victor Frankenstein creates a creature from dead body parts, only to be horrified by the result. The novel examines themes of scientific overreach, the consequences of creation, and the moral responsibilities that come with it.",
+        "image": "../books/13.jpg",
+        "category": "fantasy"
+    },
+    {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "price": "Rs. 1,066",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,185",
+        "description": "Set in early 19th-century England, this novel follows Elizabeth Bennet as she navigates societal expectations, family dynamics, and her evolving relationship with the proud yet mysterious Mr. Darcy.",
+        "image": "../books/1.jpg",
+        "category": "fantasy"
+    }
+]

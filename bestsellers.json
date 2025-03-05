@@ -1,0 +1,82 @@
+[
+    {
+        "title": "The Dark Side of Mirror",
+        "author": "Christopher Murphy",
+        "price": "Rs. 1,100",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,249",
+        "description": "A thrilling exploration of hidden secrets and dark truths that lie on the other side of a reflection.",
+        "image": "books/a.jpg",
+        "category": "bestseller"
+    },
+    {
+        "title": "Junior Year Bites",
+        "author": "Annie Listenby",
+        "price": "Rs. 950",
+        "discount": "15%",
+        "originalPrice": "Rs. 1,099",
+        "description": "A humorous coming-of-age novel set during the turbulent college years, filled with awkward moments and self-discovery.",
+        "image": "books/b.jpg",
+        "category": "bestseller"
+    },
+    {
+        "title": "A Court at Constantinople",
+        "author": "Anthony Earth",
+        "price": "Rs. 1,250",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,399",
+        "description": "Set in the grandeur of the Byzantine Empire, this historical novel delves into the intrigues and power struggles of the court.",
+        "image": "books/c.jpg",
+        "category": "bestseller"
+    },
+    {
+        "title": "Daughters of a Winter Night",
+        "author": "Doug Belair",
+        "price": "Rs. 1,300",
+        "discount": "12%",
+        "originalPrice": "Rs. 1,499",
+        "description": "A tale of family bonds, secrets, and survival against the backdrop of a harsh winter, where the past and future collide.",
+        "image": "books/d.jpg",
+        "category": "bestseller"
+    },
+    {
+        "title": "Cult Crystal",
+        "author": "Remi Bradley",
+        "price": "Rs. 1,400",
+        "discount": "15%",
+        "originalPrice": "Rs. 1,649",
+        "description": "A mystical and suspenseful novel revolving around an ancient crystal that holds the power to change the course of history.",
+        "image": "books/e.jpg",
+        "category": "bestseller"
+    },
+    {
+        "title": "Novel of Fiction",
+        "author": "S. J. Lee",
+        "price": "Rs. 1,100",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,249",
+        "description": "A groundbreaking work that explores the boundaries of fiction, where storytelling becomes a philosophical journey.",
+        "image": "books/f.jpg",
+        "category": "bestseller"
+    },
+    {
+        "title": "As the Fallen Rise",
+        "author": "Sadie Hewitt",
+        "price": "Rs. 1,200",
+        "discount": "10%",
+        "originalPrice": "Rs. 1,349",
+        "description": "A gripping tale of redemption and the power of rising from one's downfall, filled with action, drama, and emotional depth.",
+        "image": "books/g.jpg",
+        "category": "bestseller"
+    },
+    {
+        "title": "Takakush",
+        "author": "Raine Reiter",
+        "price": "Rs. 1,000",
+        "discount": "5%",
+        "originalPrice": "Rs. 1,050",
+        "description": "A fascinating adventure in a distant world, where ancient traditions and new conflicts clash, revealing the true power of unity.",
+        "image": "books/h.jpg",
+        "category": "bestseller"
+    }
+]

@@ -1,0 +1,1301 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cinzel+Decorative:wght@400;700;900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body {
+    /* background-color: black; */
+    font-family: "Roboto", serif;
+}
+
+.home {
+    display: flex;
+    background-color: white;
+    height: 90vh;
+    width: 100vw;
+    background-image: url("Gallery/bg4.jpg");
+    background-size: max(1200px, 100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: left;
+}
+
+
+.hero {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 900;
+    font-style: normal;
+    width: 45vw;
+    margin: 2rem;
+    color: #0e345a;
+    font-weight: 900;
+    font-size: 5.5vw;
+    padding: 2rem;
+}
+
+nav {
+    top: 0%;
+    left: 0%;
+    position: sticky;
+    background-color: #4d2e1e;
+    background-color: white;
+    padding: 0.31rem;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    /* opacity: 0.8; */
+    box-shadow: 0px 0px 0.625rem -0.06rem black;
+    z-index: 3;
+    /* position: sticky; */
+}
+
+nav img {
+    height: 3.75rem;
+    width: 80px;
+    position: relative;
+    z-index: 10;
+}
+
+.menubar{
+    display: none;
+}
+
+.close {
+    display: none;
+}
+
+.navclass {
+    display: flex;
+    list-style: none;
+    padding: 8px 5px;
+    /* margin: 8px 5px; */
+}
+
+.navclass li a {
+    font-family: "Raleway", serif;
+    color: black;
+    margin: 12px;
+    font-weight: 600;
+    font-size: 2rem;
+    text-decoration: none;
+    position: relative;
+}
+
+.navclass a:hover{
+    color: rgb(113, 113, 113);
+}
+
+.navbar a::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: rgb(0, 110, 255);
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+.dropdn {
+    padding: 1vw;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    gap: 12px;
+    list-style: none;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input, .search button {
+    padding: 8px;
+    margin: 0; 
+    box-sizing: border-box;
+    height: 4vh; 
+    vertical-align: middle;
+}
+
+.search input {
+    width: 18vw;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    background-color: transparent;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.4),
+    inset -5px -5px 10px rgba(255, 255, 255, 0.7);
+    outline: none;
+}
+
+.search button {
+    font-size: 1.5rem;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(32 39 104);
+    border:none;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 5px; 
+}
+
+.navicon {
+    display: flex;
+    gap: 1.5vw;
+}
+
+.navicon svg {
+    height: 5vh;
+    transition: all 0.3s ease-in-out;
+}
+
+.navicon svg:hover {
+    cursor: pointer;
+    fill: rgb(50, 58, 131);
+}
+
+
+.main {
+    background: #fff;
+    position: relative;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainhero {
+    font-family: "Raleway", serif;
+    color: rgb(26, 37, 137);
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+#cardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.card {
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    background-color: white;
+    /* padding: 20px; */
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    width: 300px;
+}
+
+.frame {
+    /* box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2); */
+    background-color: rgb(225, 225, 225);
+    height: 24.3vw;
+    width: 22.222vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* overflow: hidden; */
+    align-items: center;
+}
+
+.cover img{
+    height: 20.83vw;
+    width: 13.88vw;
+    position: relative;
+    filter: contrast(1.55);
+}
+
+.cover {
+    position: relative;
+    overflow: hidden;
+    box-shadow: -7px 7px 7px 0px rgba(0, 0, 0, 0.25);
+    height: 20.83vw;
+    transition: 0.7s;
+    width: 13.88vw;
+}
+
+
+.cover::before {
+    content: "";
+    position: absolute;
+    height: 28.125rem;
+    width: 1.25rem;
+    background-color: #f3f3f3;
+    box-shadow: 0px 0px 10px #f3f3f3;
+    filter: blur(4px);
+    opacity: 0.8;
+    top: -50px;
+    transition: 0.8s;
+    transform: rotate(-25deg) translateX(-11.25rem) translateY(-6.25rem);
+    z-index: 2;
+}
+
+.cover:hover::before{
+    transform: rotate(-25deg) translate(18.75rem, 9.38rem);
+}
+
+.cover:hover{
+    transform: scale(1.1);
+}
+
+    
+.data {
+    width: 100%;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    opacity: 0; 
+    /* transition: 0.5s; */
+}
+
+
+
+.icon {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    cursor: pointer;
+    /* padding: 5px 20px; */
+    gap: 10px;
+}
+
+.icon:first-child {
+    background-color: #a8e6cf;
+}
+
+.icon:nth-child(2) {
+    background-color: #add8e6;
+}
+
+.icon:nth-child(3) {
+    background-color: #ffb6b9;
+}
+
+.icon:first-child img {
+    height: 30px;
+    padding: 5px;
+    background-color: #81c7b7;
+}
+
+
+.desc {
+    font-weight: 600;
+    color: black; 
+    font-size: 0.9rem;
+    position: absolute;
+    bottom: 0px; 
+    left: 0px; 
+    background-color: rgba(255, 255, 255, 0.841);
+    padding: 5px;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 0.8s;
+}
+
+.icon:nth-child(2) img {
+    height: 30px;
+    padding: 5px;
+    background-color: #89c2d9;
+}
+
+.icon:nth-child(3) img {
+    height: 30px;
+    padding: 5px;
+    background-color: #ff8b94;
+}
+
+.icon p{
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    padding: 3px 8px;
+}
+
+.icon:hover {
+    filter: brightness(0.8);
+}
+
+.book {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    color: rgb(124, 9, 9);
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.author {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.price{
+    color: rgb(8, 4, 118);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+
+
+.oldPrice {
+    color: rgb(80, 80, 80);
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-decoration: line-through;
+}
+
+.discount {
+    color: rgb(0, 199, 43);
+    font-weight: 600;
+    font-size: 1.2rem;
+    /* text-decoration: line-through; */
+}
+
+/* CART SECTION */
+.cart{
+    display: none;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100vw;
+    justify-content: center;
+    height: 100vh;
+}
+
+.cartBox{
+    border: 2px solid black;
+    width: 80%;
+    height: 40%;
+    background-color: rgb(241, 241, 241);
+    gap: 2rem;
+    border-radius: 2%;
+    margin: 10px;
+    /* opacity: 1; */
+}
+
+.cartContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.cartContainer p {
+    padding: 0.6rem;
+    font-family: "Raleway", serif;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.cartContainer button{
+    font-family: "Raleway", serif;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    background-color: rgb(26, 37, 137);
+    color: white;
+    padding: 1rem;
+    border-radius: 6%;
+    margin: 10px;
+}
+
+.cartContainer button:hover{
+    background-color: rgb(53, 55, 150);
+}
+
+.cartContainer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.cartText{
+    font-family: "Raleway", serif;
+    color: rgb(26, 37, 137);
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+/* PROFILE SECTION */
+
+.profile{
+    /* align-items: center; */
+    justify-content: center;
+    position: fixed;
+    top: 10%;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    z-index: 12;
+}
+
+.profBox{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    border: 2px solid black;
+    background-color: rgb(241, 241, 241);
+    gap: 2rem;
+    border-radius: 2%;
+    margin: 10px;
+    padding: 1rem;
+    
+    /* opacity: 1; */
+}
+
+.profBox h1{
+    font-family: "Raleway", serif;
+    color: rgb(26, 37, 137);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.prof{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.profOpt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Raleway", serif;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.profOpt ul{
+    padding: 0.4rem 0.5rem;
+    list-style: none;
+}
+
+.profOpt li{
+    padding: 0.5rem 0.5rem;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.profOpt li:hover{
+    background-color: rgb(43, 51, 122);
+    color: white;
+}
+
+.profbtn button{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.8rem 1.2rem;
+    background-color: rgb(26, 37, 137);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin: 1rem;
+}
+
+.profbtn button:hover{
+    background-color: #fdf240;
+    color: #0e345a;
+}
+
+.profLogo{
+    cursor: pointer;
+}
+
+/* ABOUT US SECTION */
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 5rem 0; */
+    background-color: rgb(241, 241, 241);
+    gap: 2rem;
+}
+
+.about h1{
+    font-family: "Raleway", serif;
+    color: rgb(26, 37, 137);
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.about h2{
+    font-family: "Raleway", serif;
+    color: rgb(26, 37, 137);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.about p{
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.aboutImg img{
+    width: 95vw;
+}
+
+/* CONTACT US SECTION */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(242, 242, 242);
+    gap: 2rem;
+}
+
+.contUs{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: row; */
+}
+
+.contHead{
+    font-family: "Raleway", serif;
+    color: rgb(26, 37, 137);
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.contForm form{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    margin: 2rem;
+}
+
+.contForm button{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    background-color: rgb(26, 37, 137);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.contForm button:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.contForm input{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.contForm textarea{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    border: none;
+    height: 10rem;
+}
+
+.contact img{
+    width: 57  vw;
+
+}
+/* FOOTER SECTION */
+
+footer{
+    background-color: rgb(47, 47, 47);
+    font-family: "Martel Sans", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(197, 197, 197);
+    padding-bottom: 3vh;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+}
+
+footer a:hover {
+    color: rgb(134, 134, 134);
+}
+
+footer h2{
+    font-size: 15px;
+    width: 100vw;
+    margin: 0.5vw;
+    margin-left: 6vw;
+}
+
+footer span{
+    margin-left: 6vw;
+    margin-top: 1vh;
+    width: 12vw;
+}
+
+footer p {
+    margin: 1rem;
+    width: 100vw;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+
+@media (min-width: 940px) and (max-width: 1130px) {
+
+    .navclass li a {
+        font-size: 1.5rem;
+    }
+
+    
+
+    .search input, .search button {
+        padding: 5px;
+        margin: 0; 
+        box-sizing: border-box;
+        height: 30px; 
+        vertical-align: middle;
+    }
+    .search input {
+        font-size: 90%;
+    }
+    .search button {
+        font-size: 90%;
+    }
+
+    .hero {
+        font-size: 3.5rem;
+    }
+
+    .mainhero {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    
+    .card {
+        /* min-width: 200px; */
+        margin: 15px;
+        border-radius: 4px;
+        width: 20vw;
+    }
+        
+    .frame{
+        width: 90%;
+        height: 70%;
+    }
+
+    .cover{
+        height: 80%;
+        width: 80%;
+    }
+
+    .cover img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .data {
+        width: 100%;
+    }
+    
+    .icons {
+        gap: 8px;
+        width: 100%;
+    }
+    
+    .icon {
+        width: 80%;
+        gap: 8px;
+    }
+    
+    .icon:first-child img {
+        height: 27px;
+        padding: 4px;
+    }
+    
+    .desc {
+        font-size: 0.85rem;
+    }
+    .icon:nth-child(2) img {
+        height: 27px;
+        padding: 4px;
+    }
+    
+    .icon:nth-child(3) img {
+        height: 27px;
+        padding: 4px;
+    }
+    
+    .icon p{
+        padding: 3px 8px;
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+    
+    .author {
+        font-size: 0.8rem;
+    }
+    
+    .prices {
+        gap: 0.9rem;
+    }
+    
+    .price{
+        color: rgb(8, 4, 118);
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    
+    
+    
+    .oldPrice {
+        color: rgb(80, 80, 80);
+        font-weight: 600;
+        font-size: 1rem;
+        text-decoration: line-through;
+    }
+    
+    .discount {
+        color: rgb(0, 199, 43);
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .profBox{
+        width: 70%;
+    }
+
+    .contHead{
+        font-size: 2.5rem;
+    }
+
+
+    .contUs img{
+        width: 60vw;
+    }
+
+}
+
+
+@media (min-width: 554px) and (max-width: 940px) {
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navicon svg{
+        padding: 0vw 5vw;
+    }
+
+    .navclass {
+        display: none;
+        flex-direction: column;
+        justify-content: flex-end;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        background-color: white;
+    }
+
+    .navbar a::before {
+        bottom: 0;
+    }
+
+    .dropdn{
+        z-index: 20;
+        display: none;
+        position: relative;
+        margin: 1vh;
+        padding: 0;
+    }
+
+    .menubar {
+        display: block;
+        cursor: pointer;
+    }
+
+    nav img {
+        height: 2.2rem;
+        width: 2.8rem;
+    }
+    
+    .navclass li a {
+        font-size: 1.3rem;
+    }
+    
+    .search input, .search button {
+        padding: 5px;
+        margin: 0; 
+        box-sizing: border-box;
+        height: 27px; 
+        vertical-align: middle;
+    }
+    .search input {
+        font-size: 80%;
+        width: 18vw;
+    }
+    .search button {
+        font-size: 90%;
+    }
+
+    .hero {
+        font-size: 3.2rem;
+    }
+
+    .mainhero {
+        font-size: 2.7rem;
+        font-weight: 700;
+    }
+    
+    .card {
+        /* min-width: 300px; */
+        margin: 13px;
+        border-radius: 4px;
+        width: 40%;
+    }
+     
+    .frame{
+        width: 90%;
+        height: 70%;
+    }
+
+    .cover{
+        height: 80%;
+        width: 80%;
+    }
+
+    .cover img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .data {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    
+    .icons {
+        gap: 8px;
+        width: 100%;
+    }
+    
+    .icon {
+        width: 80%;
+        gap: 8px;
+    }
+    
+    .icon:first-child img {
+        height: 24px;
+        padding: 3.5px;
+    }
+    
+    .desc {
+        font-size: 0.5rem;
+    }
+    .icon:nth-child(2) img {
+        height: 24px;
+        padding: 3.5px;
+    }
+    
+    .icon:nth-child(3) img {
+        height: 24px;
+        padding: 3.5px;
+    }
+    
+    .icon p{
+        padding: 3px 8px;
+    }
+
+    .title {
+        font-size: 1.1rem;
+    }
+    
+    .author {
+        font-size: 0.75rem;
+    }
+    
+    .prices {
+        gap: 0.9rem;
+    }
+    
+    .price{
+        color: rgb(8, 4, 118);
+        font-weight: 500;
+        font-size: 0.8rem;
+    }
+    
+    .oldPrice {
+        color: rgb(80, 80, 80);
+        font-weight: 500;
+        font-size: 0.8rem;
+        text-decoration: line-through;
+    }
+    
+    .discount {
+        color: rgb(0, 199, 43);
+        font-weight: 500;
+        font-size: 0.8rem;
+    }
+
+    .about h1{
+        font-size: 2.4rem;
+    }
+    
+    .about h2{
+        font-size: 1.75rem;
+    }
+
+    .about p{
+        font-size: 1.2rem;
+    }
+
+    .contHead{
+        font-size: 2rem;
+    }
+
+    .contUs{
+        flex-direction: row;
+    }
+
+    .contUs img{
+        width: 45vw;
+    }
+
+
+    .cartText{
+        font-size: 2.2rem;
+    }
+
+    .cartBox{
+        height: 36%;
+    }
+
+    .cartContainer p{
+        font-size: 1.2rem;
+    }
+    .cartContainer button{
+        font-size: 1.2rem;
+    }
+
+    .profBox{
+        width: 85vw;
+    }
+
+    .prof h1{
+        font-size: 2rem;
+    }
+
+    .profOpt{
+        font-size: 1.25rem;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 550px) {
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navclass {
+        display: none;
+        flex-direction: column;
+        justify-content: flex-end;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        background-color: white;
+    }
+
+    .navbar a::before {
+        bottom: 0;
+    }
+
+    .dropdn{
+        z-index: 20;
+        display: none;
+        position: relative;
+        margin: 1vh;
+        padding: 0;
+    }
+
+    .menubar {
+        display: block;
+    }
+
+    nav img {
+        height: 2.1rem;
+        width: 2.6rem;
+    }
+    
+    .navclass li a {
+        font-size: 1.15rem;
+    }
+    
+    .search input, .search button {
+        padding: 5px;
+        margin: 0; 
+        box-sizing: border-box;
+        height: 22px; 
+        vertical-align: middle;
+    }
+    .search input {
+        font-size: 70%;
+        width: 16vw;
+    }
+    .search button {
+        font-size: 80%;
+    }
+
+    .hero {
+        font-size: 2.8rem;
+    }
+
+    .mainhero {
+        font-size: 2.4rem;
+        font-weight: 700;
+    }
+    
+    .card {
+        min-width: 350px;
+        margin: 10px;
+        border-radius: 4px;
+        width: 20vw;
+    }
+     
+    .frame{
+        width: 90%;
+        height: 70%;
+    }
+
+    .cover{
+        height: 80%;
+        width: 80%;
+    }
+
+    .cover img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .data {
+        width: 60%;
+    }
+    
+    .icons {
+        gap: 8px;
+        width: 100%;
+    }
+    
+    .icon {
+        width: 80%;
+        gap: 8px;
+    }
+    
+    .icon p{
+        display: none;
+        
+    }
+
+    .icon:first-child img {
+        height: 20px;
+        padding: 3px;
+    }
+    
+    .desc {
+        font-size: 0.4rem;
+    }
+    .icon:nth-child(2) img {
+        height: 20px;
+        padding: 3px;
+    }
+    
+    .icon:nth-child(3) img {
+        height: 20px;
+        padding: 3px;
+    }
+    
+    .icon p{
+        padding: 2px 6px;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+    
+    .author {
+        font-size: 1rem;
+    }
+    
+    .prices {
+        font-size: 1rem;
+        gap: 0.8rem;
+    }
+    
+    .price{
+        color: rgb(8, 4, 118);
+        font-weight: 500;
+        font-size: 0.7rem;
+    }
+    
+    .oldPrice {
+        color: rgb(80, 80, 80);
+        font-weight: 500;
+        font-size: 0.7rem;
+        text-decoration: line-through;
+    }
+    
+    .discount {
+        color: rgb(0, 199, 43);
+        font-weight: 500;
+        font-size: 0.7rem;
+    }
+
+    .cartText{
+        font-size: 2rem;
+    }
+
+    .cartBox{
+        height: 35%;
+    }
+
+    .cartContainer p{
+        font-size: 1rem;
+    }
+
+    .cartContainer button{
+        font-size: 1rem;
+    }
+
+    .profBox{
+        width: 85vw;
+    }
+
+    .prof h1{
+        font-size: 2rem;
+    }
+
+    .prof h2{
+        font-size: 1.2rem;
+    }
+
+    .profLogo svg{
+        width: 30vw;
+    }
+
+    .profOpt{
+        font-size: 0.8rem;
+    }
+
+    .profbtn button{
+        font-size: 0.8rem;
+    }
+
+    .contHead{
+        font-size: 2rem;
+    }
+
+    .contUs{
+        flex-direction: column;
+    }
+
+    .contUs img{
+        width: 68vw;
+    }
+
+    .about h1{
+        font-size: 2rem;
+    }
+    
+    .about h2{
+        font-size: 1.5rem;
+    }
+
+    .about p{
+        font-size: 0.9rem;
+    }
+
+    footer h2 {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 0.85rem;
+    }
+
+    footer span a{
+        font-size: 0.75rem;
+    }
+}
